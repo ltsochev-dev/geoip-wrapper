@@ -1,0 +1,33 @@
+{
+    "name": "zcard/geoip",
+    "type": "library",
+    "description": "MaxMind GeoIP 2 wrapper library with support of additional storage drivers.",
+    "keywords": [
+        "geoip",
+        "maxmind",
+        "location"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lachezar Tsochev",
+            "email": "ltsochev@live.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.1",
+        "geoip2/geoip2": "2.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "GeoIP": "src"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,17 @@
+destination: ./docs
+
+extensions:
+	- php 
+
+source:
+	- src
+
+exclude: 
+	- */tests/*
+	- */vendor/*
+
+php: true
+
+todo: true
+
+title: MaxMind GeoLite2 Wrapper
